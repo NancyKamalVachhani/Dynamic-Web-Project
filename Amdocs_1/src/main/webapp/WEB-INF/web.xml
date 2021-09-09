@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee; http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Amdocs_1</display-name>
+  <welcome-file-list>
+    <welcome-file>home.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name> test-servlet </servlet-name>
+  <servlet-class> amdocs.TestServlet </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> test-servlet </servlet-name>
+  <url-pattern> /test-servlet </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name> course-info </servlet-name>
+  <servlet-class> amdocs.CourseServlet </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> course-info </servlet-name>
+  <url-pattern> /course-info </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name> delete-user </servlet-name>
+  <servlet-class> amdocs.deleteUserServlet </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> delete-user </servlet-name>
+  <url-pattern> /delete-user </url-pattern>
+  </servlet-mapping>
+    
+  <servlet>
+  <servlet-name> delete-feedback </servlet-name>
+  <servlet-class> amdocs.deleteFeedbackServlet </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> delete-feedback </servlet-name>
+  <url-pattern> /delete-feedback </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name> delete-contact </servlet-name>
+  <servlet-class> amdocs.deleteContactServlet </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> delete-contact </servlet-name>
+  <url-pattern> /delete-contact </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name> delete-course </servlet-name>
+  <servlet-class> amdocs.deleteCourseServlet </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> delete-course </servlet-name>
+  <url-pattern> /delete-course </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name> user-home </servlet-name>
+  <servlet-class> amdocs.userHome </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> user-home </servlet-name>
+  <url-pattern> /user-home </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name> user-course </servlet-name>
+  <servlet-class> amdocs.userCourse </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> user-course </servlet-name>
+  <url-pattern> /user-course </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name> user-contact </servlet-name>
+  <servlet-class> amdocs.userContact </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> user-contact </servlet-name>
+  <url-pattern> /user-contact </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name> user-feedback </servlet-name>
+  <servlet-class> amdocs.userFeedback </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> user-feedback </servlet-name>
+  <url-pattern> /user-feedback </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name> user-register </servlet-name>
+  <servlet-class> amdocs.userRegister </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> user-register </servlet-name>
+  <url-pattern> /user-register </url-pattern>
+  </servlet-mapping>
+</web-app>
